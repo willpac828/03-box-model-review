@@ -51,20 +51,21 @@ img {
 
 .cat__data {
   border-bottom: .025rem solid #ddd;
-  padding-bottom: .5rem;
+
   overflow: auto;
   color: #ddd;
   line-height: 2.2rem;
+
 }
 
 
 
 .cat__number {
-
-  margin: .5rem;
+  margin-top: 0;
+  margin: 0 .5rem .5rem .5rem;
   float:left;
   color: #ddd;
-
+  font-family: sans-serif;
 
 }
 
@@ -83,8 +84,18 @@ img {
 
 
 .cat__author img {
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   vertical-align: middle;
+  border-radius: 10%;
 
+}
+
+
+.cat__author {
+  font-family: sans-serif;
+}
+
+.avatar {
+  border-radius: 10%;
 }
