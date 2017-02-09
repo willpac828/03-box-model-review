@@ -23,12 +23,14 @@ img {
 
 
 .section {
-
+  padding: 1rem;
 
 
 }
 
 .container {
+  max-width: 65rem;
+  margin: auto;
   overflow: auto;
 
 }
